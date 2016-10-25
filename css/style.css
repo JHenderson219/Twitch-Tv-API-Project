@@ -1,0 +1,12 @@
+body{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+}
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+a:link, a:visited, a:hover, a:active {
+  color:inherit;
+  text-decoration: none;
+ }
