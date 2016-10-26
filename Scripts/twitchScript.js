@@ -125,7 +125,6 @@ $(document).ready(function(){
 	var title; 
 	var status;
 	var link;
-	debugger;
 	for(var i=0; i < streamersJson.length; i++){
 		jsonData = streamersJson[i];
 		console.log(streamersJson[4]["error"]);
