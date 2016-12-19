@@ -125,6 +125,10 @@ $(document).ready(function(){
 	var title; 
 	var status;
 	var link;
+
+  //Loops through JSON object. If user doesn't exist (IE ["error"]=="Not Found"), sets a placeholder.
+  //If user is not streaming, sets username correctly, but status and title as "Offline"
+  //Otherwise, if the stream is active, sets title to name of current string, status to "Now Streaming", user, and link to open that stream.
 	for(var i=0; i < streamersJson.length; i++){
 		jsonData = streamersJson[i];
 		console.log(streamersJson[4]["error"]);
